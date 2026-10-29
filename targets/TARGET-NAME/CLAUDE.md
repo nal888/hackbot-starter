@@ -35,3 +35,8 @@ When updating these records, use a session ID supplied by the runtime or user,
 or verified against the session metadata. If unavailable, say so. Record original
 logs separately from readable exports and do not select a log only because it
 is the most recent one. Keep this file for the brief, not a running transcript.
+
+When a tool provides operation or request IDs, include them in the relevant
+evidence note with the tool/run and saved result location. Check that each ID
+resolves to the record being cited. Never invent IDs or reconstruct a request
+and present it as the original. Keep unsupported claims marked as unverified.

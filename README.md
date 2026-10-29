@@ -38,7 +38,9 @@ targets/TARGET-NAME/
    [SESSION-GUIDE.md](SESSION-GUIDE.md) explains how to save a transcript and
    return to a session in Claude Code or Codex CLI.
 5. Copy `evidence/NOTE-TEMPLATE.md` for a useful observation or attempt. Link the
-   relevant transcript turn and any saved files. Keep `NOTES.md` short.
+   relevant transcript turn and any saved files. If the tool gives an operation
+   or request ID, record it with the location of its original result too.
+   Keep `NOTES.md` short.
 
 `CLAUDE.md` holds the target brief. `AGENTS.md` points Codex to that same file,
 so scope is maintained in one place. From another working directory, explicitly
@@ -63,6 +65,12 @@ The transcript is the detailed session history. Notes are an index into it.
 Keep original evidence separately when the transcript only shows excerpts or
 truncated output. Don't assume a session ID alone will remain accessible after
 moving machines; record the transcript path or export location too.
+
+A session ID gets you back to the conversation. An operation ID gets you to a
+particular recorded action. For example, a tool might return `op_005` for one
+request: link that ID to its saved request and response, along with the tool/run
+it belongs to. This example is only a label, not a supplied record. The template
+does not generate operation IDs or include a replay interface.
 
 Keep credentials out of these notes. Review transcripts and captures before
 sharing them; the included ignore rules only help with Git, not ZIP exports.
