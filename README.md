@@ -72,6 +72,10 @@ request: link that ID to its saved request and response, along with the tool/run
 it belongs to. This example is only a label, not a supplied record. The template
 does not generate operation IDs or include a replay interface.
 
+The operation-ID idea comes from
+[BruteCat’s “Refining the Approach” section](https://brutecat.com/articles/hacking-google-with-ai/#refining-the-approach),
+where reports reference recorded API operations for review.
+
 Keep credentials out of these notes. Review transcripts and captures before
 sharing them; the included ignore rules only help with Git, not ZIP exports.
 This template contains no real targets, accounts, transcripts or findings.
