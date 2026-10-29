@@ -1,0 +1,8 @@
+# Local session exports and raw evidence are private by default.
+targets/*/sessions/*
+!targets/*/sessions/INDEX.md
+targets/*/evidence/raw/
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials*
